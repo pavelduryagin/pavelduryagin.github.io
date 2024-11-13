@@ -1,0 +1,11 @@
+- title: Email me
+  url: mailto:pavel.duryagin@unive.it
+  icon: fas fa-envelope
+
+- title: University website
+  url: https://www.unive.it/data/persone/20325406
+  icon: fas fa-solid fa-landmark
+  
+- title: Download my CV
+  url: https://www.unive.it/data/persone/20325406
+  icon: fas fa-regular fa-file
