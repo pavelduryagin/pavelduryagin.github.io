@@ -5,6 +5,9 @@ permalink: /talks/
 ---
 
 <h3>2024</h3>
+Talk at the international conference "Phraseology and Grammar of Constructions". Title: <b>Восклицания с вопросительным словом в русском языке: референтная и событийная интерпретации</b>. Pisa, Pisa University, 02/12/2024 
+<br>
+<br>
 Invited speaker at workshop "Contemporary approaches to Russian language 2". Title: <b>Частный вопрос в русском языке: интонация и прагматика</b>. Venice, Ca' Foscari University of Venice, 21/10/2024 
 <br>
 <br>
