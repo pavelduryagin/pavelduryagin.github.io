@@ -4,6 +4,13 @@ title: Talks and conference presentations
 permalink: /talks/
 ---
 
+<h3>2025</h3>
+<b>UPCOMING</b>: Talk (with Anna Menukhova and Irene Gassino) at the 20th Annual Meeting of the Slavic Linguistics Society. Title: <b>Palatalized and palatal consonants in Italian–Russian bilingual schoolchildren’s perception</b>. Verona, University of Verona, 10-12 September 2025
+<br>
+<br>
+Talk (with Zhanna Tsulimova) at the international conference "AISV 2025: The sound of grammar". Title: <b>The patterns of prosodic transfer in polar questions produced by Italian learners of Russian</b>. Urbino, University of Urbino, 07/02/2025
+<br>
+<br>
 <h3>2024</h3>
 Talk at the international conference "Phraseology and Grammar of Constructions". Title: <b>Восклицания с вопросительным словом в русском языке: референтная и событийная интерпретации</b>. Pisa, Pisa University, 02/12/2024 
 <br>
