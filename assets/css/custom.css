@@ -288,3 +288,119 @@ h1.post-title:empty {
     align-items: flex-start;
   }
 }
+
+/* Compact styling for regular content pages */
+
+.post,
+.page,
+.post-content,
+.page-content {
+  font-size: 0.94rem;
+  line-height: 1.58;
+}
+
+.post-content h1,
+.page-content h1 {
+  font-size: 1.7rem;
+  line-height: 1.15;
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+}
+
+.post-content h2,
+.page-content h2 {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.post-content h3,
+.page-content h3 {
+  font-size: 1.05rem;
+  line-height: 1.3;
+  margin-top: 1.2rem;
+  margin-bottom: 0.45rem;
+}
+
+.post-content p,
+.page-content p,
+.post-content li,
+.page-content li {
+  font-size: 0.94rem;
+  line-height: 1.58;
+}
+
+.post-content ul,
+.page-content ul,
+.post-content ol,
+.page-content ol {
+  padding-left: 1.25rem;
+}
+
+.post-content li,
+.page-content li {
+  margin-bottom: 0.45rem;
+}
+
+.post-content blockquote,
+.page-content blockquote {
+  font-size: 0.92rem;
+}
+
+@media (max-width: 1180px) {
+  .post,
+  .page,
+  .post-content,
+  .page-content {
+    font-size: 0.9rem;
+    line-height: 1.52;
+  }
+
+  .post-content h1,
+  .page-content h1 {
+    font-size: 1.45rem;
+  }
+
+  .post-content h2,
+  .page-content h2 {
+    font-size: 1.12rem;
+  }
+
+  .post-content h3,
+  .page-content h3 {
+    font-size: 1rem;
+  }
+
+  .post-content p,
+  .page-content p,
+  .post-content li,
+  .page-content li {
+    font-size: 0.9rem;
+    line-height: 1.52;
+  }
+}
+/* Russian about page */
+
+.about-ru-hero {
+  margin-top: 0.25rem;
+}
+
+.about-ru-hero p {
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 1180px) {
+  .about-ru-hero p {
+    font-size: 0.87rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 760px) {
+  .about-ru-hero p {
+    font-size: 0.88rem;
+    line-height: 1.5;
+  }
+}
