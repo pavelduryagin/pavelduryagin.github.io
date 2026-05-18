@@ -9,81 +9,135 @@
   --shadow: 0 10px 30px rgba(31, 41, 51, 0.08);
 }
 
+/* Base */
+
 body {
   background: var(--bg);
   color: var(--text);
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.75;
+  line-height: 1.6;
 }
 
+/* Hide clipped Hydure brand title on medium and small screens */
+
+@media (max-width: 1400px) {
+  .brand-title {
+    display: none !important;
+  }
+}
+
+/* Remove empty page-title spacing on the homepage */
+
+.page-title:empty,
+h1.page-title:empty,
+.post-title:empty,
+h1.post-title:empty {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Reduce excessive top spacing from the theme */
+
+.page-content,
+.post-content,
+.content {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Header / title typography */
+
+.site-title,
+.brand-title,
+.sidebar-about h1,
+.sidebar-about .site-title {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 0.01em;
+}
+
+/* Homepage hero with floated portrait */
+
 .hero {
-  display: grid;
-  grid-template-columns: 1.4fr 0.9fr;
-  gap: 2.5rem;
-  align-items: center;
   background: var(--surface);
   border: 1px solid var(--line);
-  border-radius: 28px;
-  padding: 2.4rem;
+  border-radius: 18px;
+  padding: 1.15rem 1.2rem;
+  margin: 0.25rem 0 1.25rem;
   box-shadow: var(--shadow);
-  margin: 2rem 0 3rem;
+  overflow: auto;
+}
+
+.hero-card {
+  float: right;
+  width: min(26%, 220px);
+  min-width: 165px;
+  margin: 0.15rem 0 0.8rem 1.15rem;
+
+  background: linear-gradient(180deg, #fffdfa 0%, #f5efe7 100%);
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  padding: 0.5rem;
+}
+
+.hero-card img {
+  display: block;
+  width: 100%;
+  max-height: 285px;
+  object-fit: cover;
+  border-radius: 11px;
+  margin: 0;
 }
 
 .hero-eyebrow {
   display: inline-block;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.35rem;
+
   color: var(--accent);
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
+  font-size: 0.66rem;
+  letter-spacing: 0.075em;
   text-transform: uppercase;
 }
 
 .hero h1 {
-  font-size: clamp(2.2rem, 4vw, 3.8rem);
-  line-height: 1.05;
-  margin: 0 0 0.8rem;
+  font-size: clamp(1.65rem, 2.7vw, 2.25rem);
+  line-height: 1.08;
+  margin: 0 0 0.5rem;
 }
 
-.hero-subtitle {
-  font-size: 1.15rem;
-  color: var(--muted);
-  max-width: 36rem;
-  margin-bottom: 1.2rem;
+.hero p {
+  font-size: 0.9rem;
+  line-height: 1.52;
+  margin: 0 0 0.64rem;
 }
 
-.hero-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.7rem;
-  margin: 1rem 0 1.5rem;
-}
-
-.hero-meta span {
-  border: 1px solid var(--line);
-  background: #fcfaf7;
-  border-radius: 999px;
-  padding: 0.45rem 0.8rem;
-  font-size: 0.92rem;
-  color: var(--muted);
+.hero a {
+  text-underline-offset: 3px;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.8rem;
-  margin-top: 1.4rem;
+  gap: 0.45rem;
+  margin-top: 0.75rem;
 }
 
 .button-primary,
 .button-secondary {
   display: inline-block;
   border-radius: 999px;
-  padding: 0.78rem 1.1rem;
+  padding: 0.46rem 0.68rem;
+  font-size: 0.8rem;
+  line-height: 1.2;
   text-decoration: none;
 }
 
 .button-primary {
   background: var(--accent-2);
+  color: white;
+}
+
+.button-primary:hover {
   color: white;
 }
 
@@ -93,28 +147,144 @@ body {
   border: 1px solid var(--line);
 }
 
-.hero-card {
-  background: linear-gradient(180deg, #fffdfa 0%, #f5efe7 100%);
+/* Regular homepage sections */
+
+.section {
+  background: var(--surface);
   border: 1px solid var(--line);
-  border-radius: 24px;
-  padding: 1.2rem;
+  border-radius: 16px;
+  padding: 1rem 1.1rem;
+  margin: 0.75rem 0 1.05rem;
+  box-shadow: var(--shadow);
 }
 
-.hero-card img {
-  width: 100%;
-  border-radius: 18px;
-  display: block;
-  margin-bottom: 1rem;
+.section h2 {
+  margin: 0 0 0.5rem;
+  color: var(--accent-2);
+  font-size: 1rem;
+  line-height: 1.25;
 }
+
+.section p {
+  font-size: 0.9rem;
+  line-height: 1.52;
+  margin: 0 0 0.68rem;
+}
+
+.section p:last-child {
+  margin-bottom: 0;
+}
+
+/* Name pronunciation */
 
 .pronounce {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--muted);
 }
 
-@media (max-width: 860px) {
+.pronunciation-section audio {
+  width: 100%;
+  max-width: 340px;
+}
+
+/* Small laptop */
+
+@media (max-width: 1180px) {
   .hero {
-    grid-template-columns: 1fr;
-    padding: 1.4rem;
+    padding: 1rem;
+    margin-top: 0;
+  }
+
+  .hero-card {
+    width: 190px;
+    min-width: 150px;
+    margin-top: 0.25rem;
+    margin-left: 1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .hero-card img {
+    max-height: 240px;
+  }
+
+  .hero h1 {
+    font-size: clamp(1.55rem, 2.4vw, 2rem);
+  }
+
+  .hero p,
+  .section p {
+    font-size: 0.87rem;
+    line-height: 1.48;
+  }
+
+  .hero-eyebrow {
+    font-size: 0.62rem;
+  }
+
+  .button-primary,
+  .button-secondary {
+    padding: 0.42rem 0.62rem;
+    font-size: 0.78rem;
+  }
+}
+
+/* Tablet and mobile */
+
+@media (max-width: 760px) {
+  .hero {
+    padding: 0.9rem;
+    border-radius: 16px;
+  }
+
+  .hero-card {
+    float: none;
+    width: 220px;
+    max-width: 70%;
+    min-width: 0;
+    margin: 0 0 0.85rem 0;
+  }
+
+  .hero-card img {
+    max-height: none;
+  }
+
+  .hero h1 {
+    font-size: 1.55rem;
+  }
+
+  .hero p,
+  .section p {
+    font-size: 0.88rem;
+    line-height: 1.5;
+  }
+
+  .section {
+    padding: 0.9rem;
+  }
+}
+
+/* Very small screens */
+
+@media (max-width: 520px) {
+  .hero {
+    padding: 0.8rem;
+  }
+
+  .hero-card {
+    width: 200px;
+    max-width: 80%;
+  }
+
+  .hero h1 {
+    font-size: 1.45rem;
+  }
+
+  .hero-eyebrow {
+    font-size: 0.6rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
