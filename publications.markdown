@@ -6,6 +6,11 @@ permalink: /publications/
 
 Please see below my recent publications in chronological order. If there is a pdf you are unable to access, please let me know. The papers published in Russian language are cited here with references in cyrillic. 
 
+<h3>2026</h3>
+(Accepted) Duryagin, P., & Tsulimova, Zh. (2026). Polar questions beyond “listen and repeat”: Integrating intonational phonology into the L2 Russian classroom. In <em>Teaching Russian Phonetics and Phonology – A Practical Approach, Routledge series on Russian
+Language Pedagogy and Research.</em> <a href="https://osf.io/preprints/edarxiv/krza3_v1" target="_blank" rel="noopener noreferrer">[preprint]</a>
+<br>
+
 <h3>2024</h3>
 Дурягин, П. В. (2024). Интонация русского частного вопроса. Firenze University Press. <a href="https://doi.org/10.36253/979-12-215-0466-8" target="_blank">https://doi.org/10.36253/979-12-215-0466-8</a>
 <br>
