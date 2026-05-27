@@ -4,7 +4,7 @@ title: Talks and conference presentations
 permalink: /talks/
 ---
 <h3>2026</h3>
-(UPCOMING) Talk (with Anna Menukhova and Irene Gassino) at the international conference "Hanyang International Symposium on Phonetics and Cognitive Sciences of Language 2026". Title: <i>“The trouble with the clusters”: Child heritage speakers’ perception of Russian consonant sequences with /j/</i>. Seoul, Hanyang University, 22/05/2026
+Talk (with Anna Menukhova and Irene Gassino) at the international conference "Hanyang International Symposium on Phonetics and Cognitive Sciences of Language 2026". Title: <i>“The trouble with the clusters”: Child heritage speakers’ perception of Russian consonant sequences with /j/</i>. Seoul, Hanyang University, 22/05/2026 [[poster]](/assets/pdf/hanyang-2026-poster.pdf)
 <br>
 <br>
 Invited talk at the seminar "VerFon - Verona per la fonetica". Title: <i>La ‘melodia’ delle parole: l’intonazione nella ricerca linguistica</i>. Verona, University of Verona, 11/05/2026
